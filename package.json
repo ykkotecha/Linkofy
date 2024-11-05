@@ -1,0 +1,8 @@
+{
+  "name": "linkedpro-connect",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp manifest.json popup.html popup.js background.js content.js ./dist/ && cp -r assets ./dist/"
+  }
+}
